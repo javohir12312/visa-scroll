@@ -1,0 +1,99 @@
+body{
+  background-color: tomato;
+}
+
+.conteiner{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.big-box{
+  display: flex;
+  width: 1000px;  
+  background-color: rgba(128, 128, 128, 0.945);
+}
+
+.box-1{
+  width: 400px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.wallet{
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.plus{
+  margin-top: 20px;
+}
+
+.visa{
+  width: 200px;
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.box-2{
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.balance{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.h2-balance{
+  margin: 0px;
+}
+
+.list{
+  list-style: none;
+}
+
+.item{
+  display: flex;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.minus{
+  display: inline;
+  border: solid 1px black;
+  border-radius: 55px;
+  margin-top: 10px;
+}
+
+.item-text-child{
+  margin: 0%;
+}
+
+.item-text{
+  margin: 0%;
+  margin-left: 40px;
+}
+
+.money{
+  color: cornflowerblue;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.money-2{
+  color: lawngreen;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
